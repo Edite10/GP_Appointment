@@ -1,1 +1,1 @@
-web: gunicorn gp_appointment.wsgi
+web: gunicorn doctor_appointment.wsgi
