@@ -26,6 +26,9 @@ SECRET_KEY = 'django-insecure-dsz)mua-hqg%$l-xm_-90=qgcrvv!_ic^8$a3fe0zpe722324k
 DEBUG = True
 
 ALLOWED_HOSTS = ['8000-edite10-gpappointment-po81ls3gfsc.ws-eu118.gitpod.io', 'localhost'] 
+CSRF_TRUSTED_ORIGINS = ["https://8000-edite10-gpappointment-po81ls3gfsc.ws-eu118.gitpod.io"]
+CSRF_ALLOWED_ORIGINS = ["https://8000-edite10-gpappointment-po81ls3gfsc.ws-eu118.gitpod.io"]
+CORS_ORIGINS_WHITELIST = ["https://8000-edite10-gpappointment-po81ls3gfsc.ws-eu118.gitpod.io"]
 
 
 # Application definition
