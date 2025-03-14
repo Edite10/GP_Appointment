@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Doctor Appointment</title>
+</head>
+<body>
+    <h1>Available Doctors</h1>
+    <ul>
+        {% for doctor in doctors %}
+            <li>{{ doctor.name }} - {{ doctor.specialty }} - {{ doctor.available_time }}</li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'book_appointment' %}">Book Appointment</a>
+</body>
+</html>
